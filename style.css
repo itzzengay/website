@@ -1,0 +1,90 @@
+body {
+	background-image:url("./i/sky.gif");
+	text-align: center;
+	color: white;
+	font-family: monospace;
+	max-width:1000px;
+	margin: auto;
+	font-size: 14px;
+}
+
+body h1,h3,a {
+	color: pink;
+	text-shadow: 0 0 15px pink;
+}
+
+body a:hover {
+	color: #AA336A
+}
+
+header {
+	margin: 25px 0px 0px 0px;
+}
+
+header h1 {
+	letter-spacing: 15px;
+}
+
+nav {
+	margin: 0 0 25px 0;
+}
+
+nav a {
+	margin: 0 7px 0 7px;
+}
+
+main {
+	background-color: black;
+	border: 2px pink solid;
+	margin: 25px 10px 0px 10px;
+	padding: 0px 15px 10px;
+	box-shadow: 0 0 10px pink;
+	border-radius: 7px;
+}
+
+summary {
+	background-color: #7D6608;
+	border: 2px yellow solid;
+	margin: 25px 10px 0px 10px;
+	padding: 0px 10px 0px 10px;
+	box-shadow: 0 0 10px yellow;
+	border-radius: 7px;
+}
+
+main img {
+	width: 100%;
+	max-width: 600px;
+	border-radius: 7px;
+}
+
+main hr {
+	border: 1px solid pink;
+	box-shadow: 0 0 10px pink;
+}
+
+footer {
+	text-align:center;
+	margin:25px 0 25px 0;
+}
+
+footer img {
+	margin: 0 5px 0 5px;
+	box-shadow: 0 0 15px pink;
+	border-radius: 5px;
+}
+
+footer img:hover {
+	animation-name: FadeIn;
+	animation-duration: .15s;
+	transition-timing-function: linear;
+	transform: scale(1.4);
+}
+
+@keyframes FadeIn {
+	0% {
+		transform: scale(1);
+	}
+	100% {
+		transform: scale(1.4);
+	}
+}
