@@ -33,7 +33,7 @@ nav a {
 	margin: 0 7px 0 7px;
 }
 
-main {
+.main {
 	background-color: black;
 	border: 2px pink solid;
 	margin: 25px 10px 0px 10px;
@@ -51,15 +51,23 @@ summary {
 	border-radius: 7px;
 }
 
-main img {
+.main img {
 	width: 100%;
 	max-width: 600px;
 	border-radius: 7px;
 }
 
-main hr {
+.main hr {
 	border: 1px solid pink;
 	box-shadow: 0 0 10px pink;
+}
+
+.main iframe {
+	display: block;
+	width: 100%;
+	border: 0px;
+	padding-top: 14px;
+	height: 94px;
 }
 
 footer {
@@ -83,6 +91,7 @@ footer img:hover {
 @keyframes FadeIn {
 	0% {
 		transform: scale(1);
+
 	}
 	100% {
 		transform: scale(1.4);
