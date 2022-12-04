@@ -33,6 +33,21 @@ nav a {
 	margin: 0 7px 0 7px;
 }
 
+.plus-st {
+	display: inline;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.plus-st a {
+	color: green;
+	text-decoration: none;
+}
+
+.plus-st a:hover {
+	color: darkgreen;
+	text-decoration: none;
+}
+
 .main {
 	background-color: black;
 	border: 2px pink solid;
