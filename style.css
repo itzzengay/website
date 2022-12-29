@@ -48,6 +48,21 @@ nav a {
 	text-decoration: none;
 }
 
+.fediverse {
+	display: inline;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fediverse a {
+	color: darkgrey;
+	text-decoration: none;
+}
+
+.fediverse a:hover {
+	color: grey;
+	text-decoration: none;
+}
+
 .main {
 	background-color: black;
 	border: 2px pink solid;
