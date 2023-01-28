@@ -8,7 +8,11 @@ body {
 	font-size: 14px;
 }
 
-body h1,h3,a {
+body a,
+h1,
+h2,
+h3,
+h4 {
 	color: pink;
 	text-shadow: 0 0 15px pink;
 }
@@ -23,6 +27,7 @@ header {
 
 header h1 {
 	letter-spacing: 15px;
+    animation: breathInOut 15s infinite;
 }
 
 nav {
@@ -31,36 +36,6 @@ nav {
 
 nav a {
 	margin: 0 7px 0 7px;
-}
-
-.plus-st {
-	display: inline;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.plus-st a {
-	color: green;
-	text-decoration: none;
-}
-
-.plus-st a:hover {
-	color: darkgreen;
-	text-decoration: none;
-}
-
-.fediverse {
-	display: inline;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.fediverse a {
-	color: darkgrey;
-	text-decoration: none;
-}
-
-.fediverse a:hover {
-	color: grey;
-	text-decoration: none;
 }
 
 .main {
@@ -111,19 +86,31 @@ footer img {
 	border-radius: 5px;
 }
 
+
 footer img:hover {
 	animation-name: FadeIn;
 	animation-duration: .15s;
 	transition-timing-function: linear;
-	transform: scale(1.4);
+	transform: scale(1.2);
 }
 
 @keyframes FadeIn {
-	0% {
+	from {
 		transform: scale(1);
+	}
+	to {
+		transform: scale(1.2);
+	}
+}
 
-	}
-	100% {
-		transform: scale(1.4);
-	}
+@keyframes breathInOut {
+    from {
+        transform:scale(0.85)
+    }
+    50% {
+        transform:scale(1)
+    }
+    to {
+        transform:scale(0.85)
+    }
 }
