@@ -26,7 +26,6 @@ header {
 }
 
 header h1 {
-	letter-spacing: 15px;
     animation: breathInOut 15s infinite;
 }
 
@@ -105,12 +104,15 @@ footer img:hover {
 
 @keyframes breathInOut {
     from {
+        letter-spacing: 12px;
         transform:scale(0.85)
     }
     50% {
+        letter-spacing: 15px;
         transform:scale(1)
     }
     to {
+        letter-spacing: 12px;
         transform:scale(0.85)
     }
 }
